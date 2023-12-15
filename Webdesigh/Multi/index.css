@@ -3,13 +3,13 @@ html {
     padding: 0%;
 }
 body {
-    background-color: rgb(236, 236, 236);
     margin: 0;
     padding: 0;
 }
 .header {
     margin: 0;
     padding: 0%;
+    background-color: #d6d6d6;
 }
 .header .up-part-of-page {
     width: auto;
@@ -20,7 +20,7 @@ body {
 }
 .header .up-part-of-page > .nav {
     color: #001;
-   background-color: white;
+    background-color: rgb(236, 236, 236);
 }
 .header .up-part-of-page > .nav > .ul {
     display: inline-block;
