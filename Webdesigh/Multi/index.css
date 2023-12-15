@@ -3,7 +3,53 @@ html {
     padding: 0%;
 }
 body {
-    background-color: antiquewhite;
+    background-color: rgb(236, 236, 236);
     margin: 0;
     padding: 0;
+}
+.up-part-of-page {
+    width: auto;
+    height: auto;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+}
+.up-part-of-page > .nav {
+    color: #001;
+   background-color: white;
+}
+.up-part-of-page > .nav > .ul {
+    display: inline-block;
+    padding: 20px;
+}
+.up-part-of-page > .nav > .ul > .li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px;
+    margin: 30px;
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    box-shadow: -10px 20px 20px -20px #d6d6d6;
+    transition: 500ms;
+    border-bottom: #001 2px;
+    align-items: center;
+}
+.up-part-of-page > .nav > .ul > .li:hover {
+    color: #adadad;
+    transition: 500ms;
+    box-shadow: -25px 20px 20px -25px #d6d6d6;
+}
+.up-part-of-page > .nav > .ul > .head-nav{
+    float: left;
+    background-color: #001;
+}
+
+p {
+    color: #001;
+    font-family: 'Raleway', sans-serif;
+    padding: 100px;
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px;
 }
