@@ -10,7 +10,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ccc;
-    box-shadow: 0px 0px 30px 0px #ccc;
+    box-shadow: 0px 0px 100px 0px #aaa9a9;
+    height: auto;
+    width: 100%;
 }
 .header .up-part-of-page {
     width: auto;
@@ -22,11 +24,11 @@ body {
 .header .up-part-of-page > .nav {
     color: #001;
     background-color: #d6d6d6;
-    
+
 }
 .header .up-part-of-page > .nav > .ul {
-    display: inline-block;
     padding: 20px;
+    
 }
 .header .up-part-of-page > .nav > .ul > .li {
     display: inline-block;
@@ -36,31 +38,46 @@ body {
     font-family: 'La Belle Aurore', cursive;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    box-shadow: 0px 0px -20px 0px #0d0d00;
+    box-shadow: 0px 0px -20px 0px #000;
     transition: 500ms;
     align-items: center;
     border-radius:2%;
-    background-color: rgb(236, 236, 236);;
+    background-color: rgb(236, 236, 236);
+    height: auto;
+    color: #0d0d0d;
+    font-weight: 400;
 }
 .header .up-part-of-page > .nav > .ul > .li:hover {
-    color: #adadad;
+    color: rgb(197, 71, 57);
     transition: 500ms;
-    box-shadow: -25px 20px 20px -25px #d6d6d6;
+    box-shadow: -25px 20px 20px -25px #bd1a1a;
 }
-.header .up-part-of-page > .nav > .ul > .head-nav{
+.header > .head-nav{
     float: left;
-    background-color: #ccc;
     max-height: max-content;
-    width: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #ccc;
+    box-shadow: 0px 0px 100px 0px #aaa9a9;
 }
-.header .up-part-of-page > .nav > .ul > .head-nav > .title {
+.header > .head-nav > .title {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #000;
     font-size: 20px;
 }
-.header .up-part-of-page > .nav > .ul > .head-nav > .h {
+.header .up-part-of-page > .head-nav > .h {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
+}
+.header .head-nav-since {
+    color: rgb(51, 13, 139);
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.header .head-nav-creater {
+    color: #000;
+    font-family: fantasy;
 }
 
 p {
