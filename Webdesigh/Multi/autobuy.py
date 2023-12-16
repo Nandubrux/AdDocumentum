@@ -1,1 +1,1 @@
-print ("meu primeiro emprego!!")
+print("meu primeiro emprego")
