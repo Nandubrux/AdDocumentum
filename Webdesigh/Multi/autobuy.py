@@ -6,6 +6,7 @@ Create in 12/2023 - by Nandubrux copyright
 #
 # - Input, inGreen mean to get the empty space to white ("") inYellow or get something inside.
 #
+"""
 name = input("Name: ") #input the name of someone.
 work = input("Work: ") #here input your work.
 age = input("Age: ") #here input ypur age.
@@ -24,3 +25,7 @@ print(name), print(work), print(age), print(situation), print(areYourmarry), # -
 """"""
 print("Congratulations!!!")
 #------------------------------------------------
+"""
+import pyautogui
+
+pyautogui.click(1071,240,duration=1)
