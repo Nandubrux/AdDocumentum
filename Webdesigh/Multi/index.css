@@ -50,7 +50,7 @@ body {
 .header .up-part-of-page > .nav > .ul > .li:hover {
     color: rgb(197, 71, 57);
     transition: 500ms;
-    box-shadow: -25px 20px 20px -25px #bd1a1a;
+    box-shadow: -25px 50px 20px -25px #bd1a1a;
 }
 .header > .head-nav{
     float: left;
