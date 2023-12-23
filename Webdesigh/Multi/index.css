@@ -50,7 +50,7 @@ body {
 .header .up-part-of-page > .nav > .ul > .li:hover {
     color: rgb(197, 71, 57);
     transition: 500ms;
-    box-shadow: -25px 50px 20px -25px #bd1a1a;
+    box-shadow: -25px 20px 20px -25px #bd1a1a;
 }
 .header > .head-nav{
     float: left;
@@ -103,4 +103,10 @@ p {
     color: #0d0d00;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
+}
+.footer > .div-footer > .Text-footer > .div-text-button-footer > .button > .li{
+    color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+
 }
