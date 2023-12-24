@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: none;
 }
 .header {
     margin: 0;
@@ -26,6 +26,10 @@ body {
     color: #001;
     background-color: #d6d6d6;
 
+}
+
+.header .up-part-of-page > .nav > .Cart-btn > .li {
+    padding: 20px;
 }
 .header .up-part-of-page > .nav > .ul {
     padding: 20px;
@@ -81,7 +85,7 @@ body {
     font-family: fantasy;
 }
 
-p {
+#p-body {
     color: #001;
     font-family: 'Raleway', sans-serif;
     padding: 100px;
@@ -94,20 +98,46 @@ p {
 .footer {
     background-color: #d6d6d6;
     width: auto;
-    padding: 10px;
+    padding: 20px;
     margin: 0px;
 }
 .footer > .div-footer{
     align-items: center;
+    background-color: none;
 }
 .footer > .div-footer > .Text-footer {
-    color: #0d0d00;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    background-color: none;
+    
 }
-.footer > .div-footer > .Text-footer > .div-text-button-footer > .button > .li{
-    color: silver;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    cursor: pointer;
+.footer > .div-footer > .Text-footer > .div-text-button-footer > #p-footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+    font-style: italic;
+    color: #010101;
+}
 
+.footer > .div-footer > .Text-footer > .div-text-button-footer > .button > .li{
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    width: auto;
+    padding: 15px;
+    display: inline-block;
+}
+.footer > .div-footer > .Text-footer > .div-text-button-footer > .button > .li:hover {
+    background-color: white;
+    transition: 2s;
+}
+
+.footer > .div-footer > .Text-footer > #h5 {
+    color: #aaa9a9;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.footer > .div-footer > .Text-footer > .div-text-button-footer > #h6 {
+    color: #0d0d0d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 10px;
 }
