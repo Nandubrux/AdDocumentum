@@ -30,19 +30,20 @@ body {
 
 .header .up-part-of-page > .nav > .Cart-btn > .li {
     padding: 20px;
+    color: #000;
 }
 .header .up-part-of-page > .nav > .ul {
-    padding: 20px;
+    padding: 1px;
     
 }
 .header .up-part-of-page > .nav > .ul > .li {
     display: inline-block;
     cursor: pointer;
-    padding: 20px;
-    margin: 30px;
+    padding: 50px;
+    margin: 1px;
     font-family: 'La Belle Aurore', cursive;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     box-shadow: 0px 0px -20px 0px #000;
     transition: 500ms;
     align-items: center;
@@ -51,17 +52,17 @@ body {
     height: auto;
     color: #0d0d0d;
     font-weight: 400;
-    border-radius: 30px;
+    border-radius: 2px;
     transition: 2s;
 }
 .header .up-part-of-page > .nav > .ul > .li:hover {
     color: rgb(253, 253, 253);
-    transition: 1ms;
+    transition: 3ms;
     box-shadow: 0px 0px 10px 0px #1d2022;
     border-radius: 35px;
     background-color: #797676;
 }
-.header > .head-nav{
+.head-nav{
     float: left;
     max-height: max-content;
     width: 100%;
@@ -69,24 +70,38 @@ body {
     background-color: #ccc;
     box-shadow: 0px 0px 100px 0px #aaa9a9;
 }
-.header > .head-nav > .title {
+.head-nav > .title {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #000;
     font-size: 20px;
 }
-.header .up-part-of-page > .head-nav > .h {
+.head-nav > .h {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
 }
-.header .head-nav-since {
+.head-nav-since {
     color: rgb(51, 13, 139);
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
-.header .head-nav-creater {
+.head-nav-creater {
     color: #000;
     font-family: fantasy;
+}
+.header > .up-part-of-page > .nav > .ul .Cart-btn {
+    float: right;
+    padding: 20px;
+    height: 100%;
+    width: 50px;
+    background-color: #868585;
+}
+#Cart-btn {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
 }
 
 #p-body {
@@ -100,9 +115,9 @@ body {
 
 
 .footer {
-    background-color: #d6d6d6;
+    background-color: #ffffff;
     width: auto;
-    padding: 20px;
+    padding: 15px;
     margin: 0px;
 }
 .footer > .div-footer{
@@ -115,7 +130,7 @@ body {
 }
 .footer > .div-footer > .Text-footer > .div-text-button-footer > #p-footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:15px;
+    font-size: 15px;
     font-style: italic;
     color: #010101;
 }
@@ -127,6 +142,7 @@ body {
     width: auto;
     padding: 15px;
     display: inline-block;
+    font-size: 18px;
 }
 .footer > .div-footer > .Text-footer > .div-text-button-footer > .button > .li:hover {
     background-color: white;
