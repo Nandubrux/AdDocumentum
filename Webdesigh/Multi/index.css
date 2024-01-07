@@ -10,8 +10,8 @@ body {
 .header {
     margin: 0;
     padding: 0;
-    background-color: #ccc;
-    box-shadow: 0px 0px 100px 0px #aaa9a9;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 100px 10px #855656;
     height: auto;
     width: 100%;
 }
@@ -24,16 +24,16 @@ body {
 }
 .header .up-part-of-page > .nav {
     color: #001;
-    background-color: #d6d6d6;
+    background-color: #ffffff;
 
 }
 
 .header .up-part-of-page > .nav > .Cart-btn > .li {
-    padding: 20px;
+    padding: 30px;
     color: #000;
 }
 .header .up-part-of-page > .nav > .ul {
-    padding: 10px;
+    padding: 15px;
     
 }
 .header .up-part-of-page > .nav > .ul > .li {
@@ -43,24 +43,24 @@ body {
     margin: 1px;
     font-family: 'La Belle Aurore', cursive;
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 10px;
     box-shadow: 0px 0px -20px 0px #524e4e;
-    transition: 500ms;
+    transition: 20ms;
     align-items: center;
     border-radius:2%;
-    background-color: rgb(197, 196, 196);
     height: auto;
     color: #000000;
     font-weight: 600;
-    border-radius: 20px;
-    transition: 2s;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 1s;
 }
 .header .up-part-of-page > .nav > .ul > .li:hover {
     color: rgb(253, 253, 253);
     transition: 1s;
-    box-shadow: 0px 0px 10px 0px #1d2022;
+    box-shadow: 0px 0px 10px 0px #dcdfdf;
     border-radius: 22px;
-    background-color: #797676;
+    background-color: #d6d5d5;
 }
 .head-nav{
     float: right;
@@ -90,18 +90,25 @@ body {
     font-family: fantasy;
 }
 .header > .up-part-of-page > .nav > .ul .Cart-btn {
-    float: right;
-    padding: 20px;
+    float: left;
     height: 100%;
-    width: 50px;
-    background-color: #868585;
+    padding: 20px;
+
 }
+
+
+
 #Cart-btn {
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+#Cart-btn:hover {
+    color: rgb(230, 130, 130);
+    cursor: pointer;
 }
 
 #p-body {
@@ -121,16 +128,23 @@ body {
     font-style: normal;
     font-style: normal;
     padding: 20px;
-    background-color: #838383;
+    background-color: #fffdfd;
     height: 100%;
     width: auto;
     border-radius: 50px;
+    font-weight: 600;
+    transition: 500ms;
+}
+#h10:hover {
+    cursor: pointer;
+    color: salmon;
+    transition: 500ms;
 }
 
 .footer {
     background-color: #ffffff;
     width: auto;
-    padding: 15px;
+    padding: 20px;
     margin: 0px;
 }
 .footer > .div-footer{
@@ -139,13 +153,16 @@ body {
 }
 .footer > .div-footer > .Text-footer {
     background-color: none;
+    text-transform: uppercase;
+    font-style: none;
     
 }
 .footer > .div-footer > .Text-footer > .div-text-button-footer > #p-footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15px;
-    font-style: italic;
-    color: #666464;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
 }
 
 .footer > .div-footer > .Text-footer > .div-text-button-footer > .button > .li{
