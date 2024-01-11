@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    box-shadow: 10px 10px 100px 10px #855656;
+    box-shadow: 10px 10px 100px 10px #ffffff;
     height: auto;
     width: 100%;
 }
@@ -89,13 +89,16 @@ body {
     color: #000;
     font-family: fantasy;
 }
+
+
+/*
 .header > .up-part-of-page > .nav > .ul .Cart-btn {
     float: left;
     height: 100%;
     padding: 20px;
 
 }
-
+*/
 
 
 #Cart-btn {
@@ -153,7 +156,7 @@ body {
 }
 .footer > .div-footer > .Text-footer {
     background-color: none;
-    text-transform: uppercase;
+    
     font-style: none;
     
 }
@@ -172,11 +175,12 @@ body {
     width: auto;
     padding: 15px;
     display: inline-block;
-    font-size: 18px;
+    font-size: 15px;
 }
 .footer > .div-footer > .Text-footer > .div-text-button-footer > .button > .li:hover {
-    background-color: white;
-    transition: 2s;
+    background-color: rgb(0, 0, 0);
+    transition: 1s;
+    color: white;
 }
 
 .footer > .div-footer > .Text-footer > #h5 {
