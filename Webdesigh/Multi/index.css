@@ -51,8 +51,8 @@ body {
     height: auto;
     color: #000000;
     font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 4px;*/
     transition: 1s;
 }
 .header .up-part-of-page > .nav > .ul > .li:hover {
