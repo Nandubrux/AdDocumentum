@@ -51,16 +51,16 @@ body {
     height: auto;
     color: #000000;
     font-weight: 600;
-    /*text-transform: uppercase;*/
-    /*letter-spacing: 4px;*/
+    text-transform: uppercase; /* - para comentarios e tirar tags*/
+    letter-spacing: 4px;
     transition: 1s;
 }
 .header .up-part-of-page > .nav > .ul > .li:hover {
     color: rgb(253, 253, 253);
     transition: 1s;
-    box-shadow: 0px 0px 10px 0px #dcdfdf;
+    box-shadow: 0px 0px 10px 0px #729b9b;
     border-radius: 22px;
-    background-color: #d6d5d5;
+    background-color: #d8d7d7;
 }
 .head-nav{
     float: right;
