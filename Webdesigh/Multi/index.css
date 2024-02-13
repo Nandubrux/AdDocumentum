@@ -56,9 +56,9 @@ body {
     transition: 1s;
 }
 .header .up-part-of-page > .nav > .ul > .li:hover {
-    color: rgb(253, 253, 253);
+    color: rgb(87, 82, 82);
     transition: 1s;
-    box-shadow: 0px 0px 10px 0px #729b9b;
+    box-shadow: 0px 0px 10px 0px #7f8181;
     border-radius: 22px;
     background-color: #d8d7d7;
 }
