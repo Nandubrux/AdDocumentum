@@ -10,8 +10,8 @@ body {
 .header {
     margin: 0;
     padding: 0;
-    background-color: #b1afaf;
-    box-shadow: 10px 10px 100px 10px #acaaaa;
+    background-color: #fdfdfd;
+   /*box-shadow: 10px 10px 100px 10px #acaaaa;*/
     height: auto;
     width: 100%;
 }
@@ -184,8 +184,8 @@ body {
 }
 
 .footer > .div-footer > .Text-footer > #h5 {
-    color: #aaa9a9;
-    font-size: 20px;
+    color: #000000;
+    font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -193,5 +193,5 @@ body {
     color: #0d0d0d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    font-size: 10px;
+    font-size: 15px;
 }
